@@ -1,0 +1,7 @@
+document_types:
+  - regulation
+  - framework
+  - security_guidance
+  - model_card
+  - license
+  - whitepaper
