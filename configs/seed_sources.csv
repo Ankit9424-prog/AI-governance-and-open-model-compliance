@@ -1,9 +1,9 @@
-doc_id
-title
-source_url
-publisher
-doc_type
-jurisdiction
-file_type
-priority
-status
+doc_id,title,source_url,publisher,doc_type,jurisdiction,file_type,priority,status
+nist_ai_rmf_001,Artificial Intelligence Risk Management Framework (AI RMF 1.0),https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf,National Institute of Standards and Technology,framework,US,pdf,high,planned
+mof_whitepaper_001,"The Model Openness Framework: Promoting Completeness and Openness for Reproducibility, Transparency, and Usability in Artificial Intelligence",https://arxiv.org/pdf/2403.13784,Linux Foundation / Generative AI Commons / collaborators,whitepaper,Global,pdf,medium,planned
+eu_ai_act_001,Regulation (EU) 2024/1689,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689,European Union,regulation,EU,html,high,planned
+nist_genai_profile_001,Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile,https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf,National Institute of Standards and Technology,framework,US,pdf,high,planned
+ncsc_secure_ai_001,Guidelines for secure AI system development,https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf,UK National Cyber Security Centre,security_guidance,UK,pdf,high,planned
+gemma3_model_card_001,Gemma 3 model card,https://ai.google.dev/gemma/docs/core/model_card_3,Google DeepMind,model_card,Global,html,high,planned
+gemma_terms_001,Gemma Terms of Use,https://ai.google.dev/gemma/terms,Google,license,Global,html,high,planned
+gemma2_tech_report_001,Gemma 2: Improving Open Language Models at a Practical Size,https://arxiv.org/pdf/2408.00118,Google DeepMind,whitepaper,Global,pdf,medium,planned

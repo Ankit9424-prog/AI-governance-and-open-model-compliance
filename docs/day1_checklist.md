@@ -5,4 +5,4 @@
 - [x] Manifest schema exists
 - [x] Seed source file exists
 - [x] Inclusion/exclusion rules are written
-- [ ] I know what kinds of documents I will collect tomorrow
+- [x] I know what kinds of documents I will collect tomorrow
