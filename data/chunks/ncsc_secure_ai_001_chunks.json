@@ -1,0 +1,410 @@
+[
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_title_block",
+    "section_type": "title_block",
+    "section_label": "title_block",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "## Guidelines for secure AI system development\n\n## About this document\n\nThis document is published by the UK National Cyber Security Centre (NCSC), the US Cybersecurity and \n\n() py yy \n\nInfrastructure Security Agency (CISA), and the following international partners:\n\n- &gt; National Security Agency (NSA)\n- &gt; g\n\nAustralian Signals Directorate's Australian Cyber Security Centre (ACSC) \n\n()\n- &gt; y gy \n\nFederal Bureau of Investigation (FBI)\n- &gt; gy\n\nCanadian Centre for Cyber Security (CCCS)\n- &gt; yy \n\nNew Zealand National Cyber Security Centre (NCSC-NZ)\n- &gt; Chile's Government CSIRT\n- &gt; National Cyber and Information Security Agency of the Czech Republic (NUKIB)\n\n()\n- &gt; yy \n\nNational Cyber Security Centre of Estonia (NCSC-EE) \n\n()\n- &gt; yy g\n\nInformation System Authority of Estonia (RIA)\n\n(\n- &gt; yy \n\nFrench Cybersecurity Agency (ANSSI)\n- &gt; y\n\nIsraeli National Cyber Directorate (INCD) \n\n(\n- &gt; yy gy \n\nGermany's Federal Office for Information Security (BSI) \n\n()\n- &gt; y\n\nItalian National Cybersecurity Agency (ACN)\n- &gt; yy gy \n\nJapan's National center of Incident readiness and Strategy for Cybersecurity (NISC)\n- &gt; Japan's Secretariat of Science, Technology and Innovation Policy, Cabinet Office \n\n()\n- &gt; ggy p\n\nNorwegian National Cyber Security Centre (NCSC-NO)\n- &gt; pgy y\n\nNigeria's National Information Technology Development Agency (NITDA) \n\n()\n- &gt; Poland Ministry of Digital Affairs\n- &gt; y g\n\nPoland's NASK National Research Institute (NASK)\n- &gt; Republic of Korea National Intelligence Service (NIS) \n\n()\n- &gt; pg\n\nCyber Security Agency of Singapore (CSA)\n\n## Acknowledgements\n\nThe following organisations contributed to the development of these guidelines:\n\n- &gt; Alan Turing Institute\n- &gt; Amazon\n- &gt; Anthropic\n- &gt; Databricks\n- &gt; Georgetown University's Center for Security and Emerging Technology\n- &gt; Google\n- &gt; Google DeepMind\n- &gt; Hugging Face\n- &gt; IBM\n- &gt; Imbue\n- &gt; Inflection\n- &gt; Microsoft\n- &gt; OpenAI\n- &gt; Palantir\n- &gt; RAND\n- &gt; Scale AI\n- &gt; Software Engineering Institute at Carnegie Mellon University\n- &gt; Stanford Center for AI Safety\n- &gt; Stanford Program on Geopolitics, Technology and Governance\n\n## Disclaimer\n\nThe information in this document is provided \"as is\" by the NCSC and the authoring organisations who shall not be liable for any loss, injury or damage of any kind caused by its use save as may be required by law. The information in this document does not constitute or imply endorsement or recommendation of any third party organisation, product, or service by the NCSC and authoring agencies. Links and references to websites and third party materials are provided for information only and do not represent endorsement or recommendation of such resources over others.\n\nThis document is made available on a TLP:CLEAR basis (https://www.first.org/tlp/).\n\n## Executive summary\n\nThis document recommends guidelines for providersof any systems that use artificial intelligence (AI), whether those systems have been created from scratch or built on top of tools and services provided by others. Implementing these guidelines will help providers build AI systems that function as intended, are available when needed, and work without revealing sensitive data to unauthorised parties.\n\nThis document is aimed primarily at providers of AI systems who are using models hosted by an \n\n() py pyg y \n\norganisation, or are using external application programming interfaces (APIs). We urge all stakeholders \n\n() gg pppgg g\n\n(including data scientists, developers, managers, decision-makers and risk owners) to read these guidelines to help them make informed decisions about the design , development , deployment and operation of their AI systems.\n\n## About the guidelines\n\nAI systems have the potential to bring many benefits to society. However, for the opportunities of AI to be fully realised, it must be developed, deployed and operated in a secure and responsible way.\n\nAI systems are subject to novel security vulnerabilities that need to be considered alongside standard cyber security threats. When the pace of development is high – as is the case with AI – security can often be a secondary consideration. Security must be a core requirement, not just in the development phase, but throughout the life cycle of the system.\n\nFor this reason, the guidelines are broken down into four key areas within the AI system development life cycle: secure design , secure development , secure deployment, and secure operation and maintenance . For each section we suggest considerations and mitigations that will help reduce the overall risk to an organisational AI system development process."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_8",
+    "section_type": "section",
+    "section_label": "1. Secure design",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the design stage of the AI system development life cycle. It covers understanding risks and threat modelling, as well as specific topics and trade-offs to consider on system and model design."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_9",
+    "section_type": "section",
+    "section_label": "2. Secure development",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the development stage of the AI system development life cycle, including supply chain security, documentation, and asset and technical debt management."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_10",
+    "section_type": "section",
+    "section_label": "3. Secure deployment",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the deployment stage of the AI system development life cycle, including protecting infrastructure and models from compromise, threat or loss, developing incident management processes, and responsible release."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_11",
+    "section_type": "section",
+    "section_label": "4. Secure operation and maintenance",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing.\n\nThe guidelines follow a 'secure by default' approach, and are aligned closely to practices defined in the NCSC's Secure development and deployment guidance, NIST's Secure Software Development Framework , and 'secure by design principles' published by CISA, the NCSC and international cyber agencies. They prioritise:\n\n- &gt; taking ownership of security outcomes for customers\n- &gt; embracing radical transparency and accountability\n- &gt; building organisational structure and leadership so secure by design is a top business priority"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_12",
+    "section_type": "section",
+    "section_label": "Introduction",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Artificial intelligence (AI) systems have the potential to bring many benefits to society. However, for the opportunities of AI to be fully realised, it must be developed, deployed and operated in a secure and responsible way. Cyber security is a necessary precondition for the safety, resilience, privacy, fairness, efficacy and reliability of AI systems.\n\nHowever, AI systems are subject to novel security vulnerabilities that need to be considered alongside standard cyber security threats. When the pace of development is high – as is the case with AI – security can often be a secondary consideration. Security must be a core requirement, not just in the development phase, but throughout the life cycle of the system.\n\nThis document recommends guidelines for providers 1 of any systems that use AI, whether those systems have been created from scratch or built on top of tools and services provided by others. Implementing these guidelines will help providers build AI systems that function as intended, are available when needed, and work without revealing sensitive data to unauthorised parties.\n\nThese guidelines should be considered in conjunction with established cyber security, risk management, and incident response best practice. In particular, we urge providers to follow the 'secure by design'\n\n() 2 pppgpy g\n\nprinciples developed by the US Cybersecurity and Infrastructure Security Agency (CISA), the UK National \n\n() pppy yy y gy \n\nCyber Security Centre (NCSC), and all our international partners. The principles prioritise:\n\n- &gt; taking ownership of security outcomes for customers\n- &gt; embracing radical transparency and accountability\n- &gt; building organisational structure and leadership so secure by design is a top business priority.\n\nFollowing 'secure by design' principles requires significant resources throughout a system's life cycle. It means developers must invest in prioritising features , mechanisms, and implementation of tools that protect customers at each layer of the system design, and across all stages of the development life cycle. Doing this will prevent costly redesigns later, as well as safeguarding customers and their data in the near term."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_13",
+    "section_type": "section",
+    "section_label": "Why is AI security different?",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "In this document we use 'AI' to refer specifically to machine learning (ML) applications3. All types of ML are in scope. We define ML applications as applications that:\n\n- &gt; involve software components (models) that allow computers to recognise and bring context to patterns in data without the rules having to be explicitly programmed by a human\n- &gt; generate predictions, recommendations, or decisions based on statistical reasoning\n\nAs well as existing cyber security threats, AI systems are subject to new types of vulnerabilities. The term \n\n() g yy yjyp\n\n'adversarial machine learning' (AML), is used to describe the exploitation of fundamental vulnerabilities in ML components, including hardware, software, workflows and supply chains. AML enables attackers to cause unintended behaviours in ML systems which can include:\n\n- &gt; affecting the model's classification or regression performance\n- &gt; allowing users to perform unauthorised actions\n- &gt; extracting sensitive model information\n\nThere are many ways to achieve these effects, such as prompt injection attacks in the large language \n\n() ( y yppjgg\n\nmodel (LLM) domain, or deliberately corrupting the training data or user feedback (known as 'data \n\n) poisoning')."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_14",
+    "section_type": "section",
+    "section_label": "Who should read this document?",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an \n\n() py pyy \n\norganisation or making use of external application programming interfaces (APIs). However, we urge all\n\n() gg pppgg g\n\nstakeholders (including data scientists, developers, managers, decision-makers and risk owners) to read these guidelines to help them make informed decisions about the design , deployment and operation of their machine learning AI systems.\n\nThat said, not all of the guidelines will be directly applicable to all organisations. The level of sophistication and the methods of attack will vary depending on the adversary targeting the AI system, so the guidelines should be considered alongside your organisation's use cases and threat profile."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_15",
+    "section_type": "section",
+    "section_label": "Who is responsible for developing secure AI?",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "There are often many actors in modern AI supply chains. A simple approach assumes two entities:\n\n- &gt; the 'provider' who is responsible for data curation, algorithmic development, design, deployment and maintenance\n- &gt; the 'user', who provides inputs and receives outputs\n\nWhile this provider-user approach is used in many applications, it is becoming increasingly uncommon, as \n\n/ pppy ppg gy \n\nproviders may look to incorporate software, data, models and/or remote services provided by third parties into their own systems. These complex supply chains make it harder for end users to understand where responsibility for secure AI lies.\n\nUsers (whether 'end users', or providers incorporating an external AI component) do not typically have \n\n/ ppg pypy \n\nsufficient visibility and/or expertise to fully understand, evaluate or address risks associated with systems they are using. As such, in line with 'secure by design' principles, providers of AI components should take responsibility for the security outcomes of users further down the supply chain.\n\nProviders should implement security controls and mitigations where possible within their models, pipelines \n\n/ py gppp\n\nand/or systems, and where settings are used, implement the most secure option as default. Where risks cannot be mitigated, the provider should be responsible for:\n\n- &gt; informing users further down the supply chain of the risks that they and (if applicable) their own users are accepting\n- &gt; advising them on how to use the component securely\n\nWhere system compromise could lead to tangible or widespread physical or reputational damage, \n\n/ ypgppypg\n\nsignificant loss of business operations, leakage of sensitive or confidential information and/or legal implications, AI cyber security risks should be treated as critical ."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_17",
+    "section_type": "section",
+    "section_label": "1. Secure design",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the design stage of the AI system development life cycle. It covers understanding risks and threat modelling, as well as specific topics and trade-offs to consider on system and model design."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_18",
+    "section_type": "section",
+    "section_label": "Raise staff awareness of threats and risks",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "System owners and senior leaders understand threats to secure AI and their mitigations. Your data scientists and developers maintain an awareness of relevant security threats and failure modes and help risk owners to make informed decisions. You provide users with guidance on the unique security \n\n() p pgqy \n\nrisks facing AI systems (for example, as part of standard InfoSec training) and train developers in secure coding techniques and secure and responsible AI practices."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_19",
+    "section_type": "section",
+    "section_label": "Model the threats to your system",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "As part of your risk management process, you apply a holistic process to assess the threats to your system, which includes understanding the potential impacts to the system, users, organisations, and wider society if an AI component is compromised or behaves unexpectedly 7 . This process involves assessing the impact of AI-specific threats 8 and documenting your decision making.\n\nYou recognise that the sensitivity and types of data used in your system may influence its value as a target to an attacker. Your assessment should consider that some threats may grow as AI systems increasingly become viewed as high value targets, and as AI itself enables new, automated attack vectors."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_20",
+    "section_type": "section",
+    "section_label": "Design your system for security as well as functionality and performance",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You are confident that the task at hand is most appropriately addressed using AI. Having determined this, you assess the appropriateness of your AI-specific design choices. You consider your threat model and associated security mitigations alongside functionality, user experience, deployment environment, performance, assurance, oversight, ethical and legal requirements, among other considerations. For example:\n\n- &gt; you consider supply chain security when choosing whether to develop in house or use external components, for example:\n- &gt; your choice to train a new model, use an existing model (with or without fine-tuning) or access a model via an external API is appropriate to your requirements\n- &gt; your choice to work with an external model provider includes a due diligence evaluation of that provider's own security posture\n- &gt; y pg y \n\nyou implement scanning and isolation/sandboxing when importing third-party models or serialised weights, which should be treated as untrusted third-party code and could enable remote code execution\n- &gt; py p\n\nif using an external library, you complete a due diligence evaluation (for example, to ensure the library has controls that prevent the system loading untrusted models without \n\n) immediately exposing themselves to arbitrary code execution\n\n/ 9 g \n\n)\n\n- &gt; if using an external API, you apply appropriate controls to data that can be sent to services outside of your organisation's control, such as requiring users to log in and confirm before sending potentially sensitive information\n- &gt; you apply appropriate checks and sanitisation of data and inputs; this includes when incorporating user feedback or continuous learning data into your model, recognising that training data defines system behaviour\n- &gt; you integrate AI software system development into existing secure development and operations best practices; all elements of the AI system are written in appropriate environments using coding practices and languages that reduce or eliminate known classes of vulnerabilities where plausible\n- &gt; if AI components need to trigger actions, for example amending files or directing output to external \n\n( pggpg g p\n\nsystems, you apply appropriate restrictions to the possible actions (this includes external AI and non-\n\n) yyppy pp\n\nAI fail-safes if necessary)\n- &gt; decisions around user interaction are informed by AI-specific risks, for example:\n- &gt; your system provides users with usable outputs without revealing unnecessary levels of detail to a potential attacker\n- &gt; if necessary, your system provides effective guardrails around model outputs\n- &gt; if offering an API to external customers or collaborators, you apply appropriate controls that mitigate attacks on the AI system via the API\n- &gt; you integrate the most secure settings into the system by default\n- &gt; you apply least privilege principles to limit access to a system's functionality\n- &gt; you explain riskier capabilities to users and require users to opt in to use them; you communicate prohibited use cases, and, where possible, inform users of alternative solutions"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_21",
+    "section_type": "section",
+    "section_label": "Consider security benefits and trade-offs when selecting your AI model",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Your choice of AI model will involve balancing a range of requirements. This includes choice of model architecture, configuration, training data, training algorithm and hyperparameters. Your decisions are informed by your threat model, and are regularly reassessed as AI security research advances and understanding of the threat evolves.\n\nWhen choosing an AI model, your considerations will likely include, but are not limited to:\n\n- &gt; the complexity of the model you are using, that is, the chosen architecture and number of parameters; your model's chosen architecture and number of parameters will, among other factors, affect how much training data it requires and how robust it is to changes in input data when in use\n- &gt; the appropriateness of the model for your use case and/or feasibility of adapting it to your specific \n\n() ppp\n\nneed (for example by fine-tuning)\n- &gt; the ability to align, interpret and explain your model's outputs (for example for debugging, audit or \n\n) y gppyppggg\n\nregulatory compliance); there may be benefits to using simpler, more transparent models over large and complex ones which are more difficult to interpret\n- &gt; characteristics of training dataset(s), including size, integrity, quality, sensitivity, age, relevance and diversity\n\n- &gt; the value of using model hardening (such as adversarial training), regularisation and/or privacyenhancing techniques\n- &gt; the provenance and supply chains of components including the model or foundation model, training data and associated tools\n\nFor more information about how many of these factors impact security outcomes, refer to the NCSC's \n\n() y py \n\n'Principles for the Security of Machine Learning', in particular Design for security (model architecture) ."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_22",
+    "section_type": "section",
+    "section_label": "2. Secure development",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the development stage of the AI system development lifecycle, including supply chain security, documentation, and asset and technical debt management."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_23",
+    "section_type": "section",
+    "section_label": "Secure your supply chain",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You assess and monitor the security of your AI supply chains across a system's life cycle, and require suppliers to adhere to the same standards your own organisation applies to other software. If suppliers cannot adhere to your organisation's standards, you act in accordance with your existing risk management policies.\n\nWhere not produced in-house, you acquire and maintain well-secured and well-documented hardware \n\n( pyq\n\nand software components (for example, models, data, software libraries, modules, middleware, \n\n) pp\n\nframeworks, and external APIs) from verified commercial, open source, and other third-party developers to ensure robust security in your systems.\n\nYou are ready to failover to alternate solutions for mission-critical systems, if security criteria are not met. You use resources like the NCSC's Supply Chain Guidance and frameworks such as Supply Chain Levels \n\n() ppy ppy \n\nfor Software Artifacts (SLSA)10 for tracking attestations of the supply chain and software development life cycles."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_24",
+    "section_type": "section",
+    "section_label": "Identify, track and protect your assets",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You understand the value to your organisation of your AI-related assets, including models, data \n\n()( ygyg \n\n(including user feedback), prompts, software, documentation, logs and assessments (including \n\n) g ppgg \n\ninformation about potentially unsafe capabilities and failure modes), recognising where they represent significant investment and where access to them enables an attacker. You treat logs as sensitive data and implement controls to protect their confidentiality, integrity and availability.\n\nYou know where your assets reside and have assessed and accepted any associated risks. You have processes and tools to track, authenticate, version control and secure your assets, and can restore to a known good state in the event of compromise.\n\nYou have processes and controls in place to manage what data AI systems can access, and to manage \n\n( ppgy\n\ncontent generated by AI according to its sensitivity (and the sensitivity of the inputs that went into \n\n) g\n\ngenerating it)."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_25",
+    "section_type": "section",
+    "section_label": "Document your data, models and prompts",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You document the creation, operation, and life cycle management of any models, datasets and metaor system-prompts. Your documentation includes security-relevant information such as the sources \n\n() yppy\n\nof training data (including fine-tuning data and human or other operational feedback), intended scope and limitations, guardrails, cryptographic hashes or signatures, retention time, suggested review frequency and potential failure modes. Useful structures to help do this include model cards, data cards \n\n() qy pp \n\nand software bills of materials (SBOMs). The production of comprehensive documentation supports transparency and accountability 11 ."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_26",
+    "section_type": "section",
+    "section_label": "Manage your technical debt",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "As with any software system, you identify, track and manage your 'technical debt' throughout an AI \n\n( y yyygyg\n\nsystem's life cycle (technical debt is where engineering decisions that fall short of best practices to \n\n) yygg p\n\nachieve short-term results are made, at the expense of longer-term benefits). Like financial debt, technical debt is not inherently bad, but should be managed from the earliest stages of development 12 . You recognise that doing so can be more challenging in an AI context than for standard software, and that your levels of technical debt are likely to be high due to rapid development cycles and a lack of \n\n( yy gppy\n\nwell-established protocols and interfaces. You ensure your life cycle plans (including processes to \n\n) pyypg p\n\ndecommission AI systems) assess, acknowledge and mitigate risks to future similar systems."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_27",
+    "section_type": "section",
+    "section_label": "3. Secure deployment",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the deployment stage of the AI system development life cycle, including protecting infrastructure and models from compromise, threat or loss, developing incident management processes, and responsible release."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_28",
+    "section_type": "section",
+    "section_label": "Secure your infrastructure",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You apply good infrastructure security principles to the infrastructure used in every part of your system's life cycle. You apply appropriate access controls to your APIs, models and data, and to their training and processing pipelines, in research and development as well as deployment. This includes appropriate segregation of environments holding sensitive code or data. This will also help mitigate standard cyber security attacks which aim to steal a model or harm its performance."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_29",
+    "section_type": "section",
+    "section_label": "Protect your model continuously",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Attackers may be able to reconstruct the functionality of a model\n\n() 13 or the data it was trained on14, by \n\n( y y y \n\naccessing a model directly (by acquiring model weights) or indirectly (by querying the model via an \n\n) g y y qg gy y qyg \n\napplication or service). Attackers may also tamper with models, data or prompts during or after training, rendering the output untrustworthy.\n\nYou protect the model and data from direct and indirect access, respectively, by:\n\n- &gt; implementing standard cyber security best practices\n- &gt; implementing controls on the query interface to detect and prevent attempts to access, modify, and exfiltrate confidential information\n\nTo ensure that consuming systems can validate models, you compute and share cryptographic hashes \n\n/() () g yypypgp\n\nand/or signatures of model files (for example, model weights) and datasets (including checkpoints) as soon as the model is trained. As always with cryptography, good key management is essential 15 .\n\nYour approach to confidentiality risk mitigation will depend considerably on the use case and the threat model. Some applications, for example those involving very sensitive data, may require theoretical guarantees that can be difficult or expensive to apply. If appropriate, privacy-enhancing technologies \n\n() gpppyppppyg g\n\n(such as differential privacy or homomorphic encryption) can be used to explore or assure levels of risk associated with consumers, users and attackers having access to models and outputs."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_30",
+    "section_type": "section",
+    "section_label": "Develop incident management procedures",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "The inevitability of security incidents affecting your AI systems is reflected in your incident response, escalation and remediation plans. Your plans reflect different scenarios and are regularly reassessed as the system and wider research evolves. You store critical company digital resources in offline backups. Responders have been trained to assess and address AI-related incidents. You provide high-quality audit logs and other security features or information to customers and users at no extra charge, to enable their incident response processes."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_31",
+    "section_type": "section",
+    "section_label": "Release AI responsibly",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You release models, applications or systems only after subjecting them to appropriate and effective \n\n( ppyy jg ppp\n\nsecurity evaluation such as benchmarking and red teaming (as well as other tests that are out of scope \n\n) y g g p\n\nfor these guidelines, such as safety or fairness), and you are clear to your users about known limitations or potential failure modes. Details of open-source security testing libraries are given in the further reading section at the end of this document."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_32",
+    "section_type": "section",
+    "section_label": "Make it easy for users to do the right things",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You recognise that each new setting or configuration option is to be assessed in conjunction with the business benefit it derives, and any security risks it introduces. Ideally, the most secure setting will be integrated into the system as the only option. When configuration is necessary, the default option should\n\n() gyy pgyp\n\nbe broadly secure against common threats (that is, secure by default). You apply controls to prevent the use or deployment of your system in malicious ways.\n\nYou provide users with guidance on the appropriate use of your model or system, which includes highlighting limitations and potential failure modes. You state clearly to users which aspects of security \n\n() ggg py py \n\nthey are responsible for, and are transparent about where (and how) their data might be used, accessed \n\n() y ppg\n\nor stored (for example, if it is used for model retraining, or reviewed by employees or partners)."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_33",
+    "section_type": "section",
+    "section_label": "4. Secure operation and maintenance",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_34",
+    "section_type": "section",
+    "section_label": "Monitor your system's behaviour",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You measure the outputs and performance of your model and system such that you can observe sudden and gradual changes in behaviour affecting security. You can account for and identify potential intrusions and compromises, as well as natural data drift."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_35",
+    "section_type": "section",
+    "section_label": "Monitor your system's inputs",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "In line with privacy and data protection requirements, you monitor and log inputs to your system (such \n\n) py pqyg pyy\n\nas inference requests, queries or prompts) to enable compliance obligations, audit, investigation and remediation in the case of compromise or misuse. This could include explicit detection of out-of-\n\n/ pp\n\ndistribution and/or adversarial inputs, including those that aim to exploit data preparation steps (such as \n\n) p\n\ncropping and resizing for images)."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_36",
+    "section_type": "section",
+    "section_label": "Follow a secure by design approach to updates",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You include automated updates by default in every product and use secure, modular update procedures \n\n() py y ppp\n\nto distribute them. Your update processes (including testing and evaluation regimes) reflect the fact that \n\n( ppg g g\n\nchanges to data, models or prompts can lead to changes in system behaviour (for example, you treat \n\n)( gppgypy\n\nmajor updates like new versions). You support users to evaluate and respond to model changes (for \n\n) jppp\n\nexample by providing preview access and versioned APIs)."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_37",
+    "section_type": "section",
+    "section_label": "Collect and share lessons learned",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "You participate in information-sharing communities, collaborating across the global ecosystem of industry, academia and governments to share best practice as appropriate. You maintain open lines of communication for feedback regarding system security, both internally and externally to your organisation, including providing consent to security researchers to research and report vulnerabilities. When needed, you escalate issues to the wider community, for example publishing bulletins responding to vulnerability disclosures, including detailed and complete common vulnerability enumeration. You take action to mitigate and remediate issues quickly and appropriately."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_40",
+    "section_type": "section",
+    "section_label": "Principles for the security of machine learning",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "The NCSC's detailed guidance on developing, deploying or operating a system with an ML component."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_41",
+    "section_type": "section",
+    "section_label": "Secure by Design - Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Secure by Design Software",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Co-authored by CISA, the NCSC and other agencies, this guidance describes how manufacturers of software systems, including AI, should take steps to factor security into the design stage of product development, and ship products that come secure out of the box."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_42",
+    "section_type": "section",
+    "section_label": "AI Security Concerns in a Nutshell",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "y \n\nProduced by the German Federal Office for Information Security (BSI), this document provides an introduction to possible attacks on machine learning systems and potential defences against those attacks."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_43",
+    "section_type": "section",
+    "section_label": "Hiroshima Process International Guiding Principles for Organizations Developing Advanced AI Systems and Hiroshima Process International Code of Conduct for Organizations Developing Advanced AI Systems",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "These documents, produced as part of the G7 Hiroshima AI Process, provide guidance for organisations developing the most advanced AI systems, including the most advanced foundation models and generative AI systems with the aim of promoting safe, secure, and trustworthy AI worldwide."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_44",
+    "section_type": "section",
+    "section_label": "AI Verify",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Singapore's AI Governance Testing Framework and Software toolkit that validates the performance of AI systems against a set of internationally recognised principles through standardised tests."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_45",
+    "section_type": "section",
+    "section_label": "Multilayer Framework for Good Cybersecurity Practices for AI — ENISA (europa.eu)",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A framework to guide National Competent Authorities and AI stakeholders on the steps they need to follow to secure their AI systems, operations and processes"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_46",
+    "section_type": "section",
+    "section_label": "ISO 5338: AI system life cycle processes (Under review)",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A set of processes and associated concepts for describing the life cycle of AI systems based on machine learning and heuristic systems."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_47",
+    "section_type": "section",
+    "section_label": "AI Cloud Service Compliance Criteria Catalogue (AIC4)",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "BSI's AI Cloud Service Compliance Criteria Catalogue provides AI-specific criteria, which enable evaluation of the security of an AI service across its lifecycle."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_48",
+    "section_type": "section",
+    "section_label": "NIST IR 8269 (Draft) A Taxonomy and Terminology of Adversarial Machine Learning",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A set of processes and associated concepts for describing the life cycle of AI systems based on machine learning and heuristic systems."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_49",
+    "section_type": "section",
+    "section_label": "MITRE ATLAS",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A knowledge base of adversary tactics, techniques, and case studies for machine learning (ML) systems, modelled after and linked to MITRE ATT&amp;CK framework."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_50",
+    "section_type": "section",
+    "section_label": "An Overview of Catastrophic AI Risks (2023)",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Produced by the Center for AI Safety, this document sets out areas of risk posed by AI."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_51",
+    "section_type": "section",
+    "section_label": "Large Language Models: Opportunities and Risks for Industry and Authorities",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Document produced by BSI for companies, authorities and developers who want to learn more about the \n\n/ py pp\n\nopportunities and risks of developing, deploying and/or using LLMs."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_52",
+    "section_type": "section",
+    "section_label": "Introducing Artificial Intelligence",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "Blog from the Australian Cyber Security Centre which provides approachable guidance on Artificial Intelligence and how to securely engage with it.\n\nOpen-source projects to help users security test AI models include:\n\n- &gt; Adversarial Robustness Toolbox (IBM)\n- &gt; CleverHans (University of Toronto)\n\n()\n- &gt; y \n\nPrompt Bench (Microsoft)\n\n()\n- &gt; y \n\nTextAttack (University of Virginia)\n\n()\n- &gt; p\n\nCounterfit (Microsoft).\n- &gt; AI Verify (Infocomm Media Development Authority, Singapore)"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_54",
+    "section_type": "section",
+    "section_label": "CISA's Cybersecurity Performance Goals",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A common set of protections that all critical infrastructure entities should implement to meaningfully reduce the likelihood and impact of known risks and adversary techniques."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_55",
+    "section_type": "section",
+    "section_label": "NCSC CAF Framework",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "The Cyber Assessment Framework (CAF) provides guidance for organisations responsible for vitally important services and activities."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_56",
+    "section_type": "section",
+    "section_label": "MITRE's Supply Chain Security Framework",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "A framework for evaluating suppliers and service providers within the supply chain."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_58",
+    "section_type": "section",
+    "section_label": "NIST AI Risk Management Framework (AI RMF)",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "The AI RMF outlines how to manage socio-technical risks to individuals, organisations, and society uniquely associated with AI."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_59",
+    "section_type": "section",
+    "section_label": "ISO 27001: Information security, cybersecurity and privacy protection",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This standard provides organisations with guidance on the establishment, implementation and maintenance of an information security management system"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_60",
+    "section_type": "section",
+    "section_label": "ISO 31000: Risk management",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "An international standard that provides organisations with guidelines and principles for risk management within organisations"
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_61",
+    "section_type": "section",
+    "section_label": "NCSC Risk Management Guidance",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "This guidance helps cyber security risk practitioners to better understand and manage the cyber security risks affecting their organisations."
+  },
+  {
+    "doc_id": "ncsc_secure_ai_001",
+    "chunk_id": "ncsc_secure_ai_001_section_62",
+    "section_type": "section",
+    "section_label": "Notes",
+    "source_file": "ncsc_secure_ai_001.pdf",
+    "text": "1. Here defined as a person, public authority, agency or other body that develops an AI system (or that \n\n2. For more information on secure by design, see CISA's Secure by Design web page and guidance Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Secure by Design Software\n3. As opposed to non-ML AI approaches such as rule-based systems\n4. CEPS describe seven different types of AI development interaction in their publication 'Reconciling the AI Value Chain with the EU's Artificial Intelligence Act '\n5. ISO/IEC 22989:2022(en) defines this as 'a functional element that constructs an AI system'\n6. NIST is tasked with producing guidelines (and taking other actions) to advance the safe, secure, and \n\n7. More information on threat modelling is available from the OWASP Foundation\n8. See MITRE ATLAS Adversarial Machine Learning 101\n9. GitHub: RCE PoC for Tensorflow using a malicious Lambda layer\n10. SLSA: 'Safeguarding artifact integrity across any software supply chain '\n11. METI (Japanese Ministry of Economy, Trade and Industry, 2023), 'Guide of Introduction of Software Bill of \n\n12. Google research: Machine Learning: The High Interest Credit Card of Technical Debt\n13. Tramèr et al 2016, Stealing Machine Learning Models via Prediction APIs\n14. Boenisch, 2020, Attacks against Machine Learning Privacy (Part 1): Model Inversion Attacks with the IBM-ART Framework\n15. National Cyber Security Centre, 2020, Design and build a privately hosted Public Key Infrastructure\n\n© Crown copyright 2023. Photographs and infographics may include material under licence from third parties and are not available for re-use. Text content is licenced for re-use under the Open Government Licence v3.0.\n\n(https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)"
+  }
+]
