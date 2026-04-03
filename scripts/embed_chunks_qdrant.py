@@ -39,6 +39,12 @@ def build_payload(chunk: dict) -> dict:
 
 def main():
     chunks = load_chunks(CHUNKS_PATH)
+    chunks = [
+        chunk for chunk in chunks
+        if chunk.get("section_type") != "title_block"
+           and "appendix" not in chunk.get("section_label", "").lower()
+           and "references" not in chunk.get("section_label", "").lower()
+    ]
     texts = [chunk["text"] for chunk in chunks]
 
     print(f"Loaded {len(chunks)} chunks")

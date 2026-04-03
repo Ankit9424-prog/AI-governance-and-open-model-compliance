@@ -1,0 +1,554 @@
+[
+  {
+    "query": "What obligations apply to providers of general-purpose AI models under the EU AI Act?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8423347852475506,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_101_104",
+        "section_label": "101_104",
+        "text_preview": "## Whereas: - (101) Providers of general-purpose AI models have a particular role and responsibility along the AI value chain, as the models they provide may form the basis for a range of downstream systems, often provided by downstream providers that necessitate a good understanding of the models a"
+      },
+      {
+        "rank": 2,
+        "score": 0.8267483342080572,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_97_100",
+        "section_label": "97_100",
+        "text_preview": "## Whereas: - (97) The notion of general-purpose AI models should be clearly defined and set apart from the notion of AI systems to enable legal certainty. y. The definition should be based on the key functional characteristics of a general-purpose AI model, in particular the generality and the capa"
+      },
+      {
+        "rank": 3,
+        "score": 0.8130308479889075,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_85_88",
+        "section_label": "85_88",
+        "text_preview": "## Whereas: - (85) General-purpose AI systems may be used as high-risk AI systems by themselves or be components of other high-risk AI systems. Therefore, due to their particular nature and in order to ensure a fair sharing of responsibilities along the AI value chain, the providers of such systems "
+      },
+      {
+        "rank": 4,
+        "score": 0.8094993188966506,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_109_112",
+        "section_label": "109_112",
+        "text_preview": "## Whereas: - (109) Compliance with the obligations applicable to the providers of general-purpose AI models should be commensurate and proportionate to the type of model provider, r, ex cluding the need for compliance for persons who develop or use models for non-professional or scientific research"
+      },
+      {
+        "rank": 5,
+        "score": 0.8085544900384856,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_117_120",
+        "section_label": "117_120",
+        "text_preview": "## Whereas: - (117) The codes of practice should represent a central tool for the proper compliance with the obligations provided for under this Regulation for providers of general-purpose AI models. Providers should be able to rely on codes of practice to demonstrate compliance with the obligations"
+      },
+      {
+        "rank": 6,
+        "score": 0.8014163645913446,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_105_108",
+        "section_label": "105_108",
+        "text_preview": "## Whereas: - (105) General-purpose AI models, in particular large generative AI models, capable of generating text, images, and other content, present unique innovation opportunities but also challenges to artists, authors, and other creators and the way their creative content is created, distribut"
+      },
+      {
+        "rank": 7,
+        "score": 0.7995129935557499,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_89_92",
+        "section_label": "89_92",
+        "text_preview": "## Whereas: - (89) Third parties making accessible to the public tools, services, processes, or AI components other than general-purpose AI models, should not be mandated to comply with requirements targeting the responsibilities along the AI value chain, in particular towards the provider that has "
+      },
+      {
+        "rank": 8,
+        "score": 0.7750792824759358,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_113_116",
+        "section_label": "113_116",
+        "text_preview": "## Whereas: - (113) If the Commission becomes aware of the fact that a general-purpose AI model meets the requirements to classify as a general-purpose AI model with systemic risk, which previously had either not been known or of which the relevant provider has failed to notify the Commission, the C"
+      }
+    ]
+  },
+  {
+    "query": "How does the EU AI Act describe general-purpose AI models?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.81255022100907,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_97_100",
+        "section_label": "97_100",
+        "text_preview": "## Whereas: - (97) The notion of general-purpose AI models should be clearly defined and set apart from the notion of AI systems to enable legal certainty. y. The definition should be based on the key functional characteristics of a general-purpose AI model, in particular the generality and the capa"
+      },
+      {
+        "rank": 2,
+        "score": 0.804655581922141,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_101_104",
+        "section_label": "101_104",
+        "text_preview": "## Whereas: - (101) Providers of general-purpose AI models have a particular role and responsibility along the AI value chain, as the models they provide may form the basis for a range of downstream systems, often provided by downstream providers that necessitate a good understanding of the models a"
+      },
+      {
+        "rank": 3,
+        "score": 0.7894874438663669,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_105_108",
+        "section_label": "105_108",
+        "text_preview": "## Whereas: - (105) General-purpose AI models, in particular large generative AI models, capable of generating text, images, and other content, present unique innovation opportunities but also challenges to artists, authors, and other creators and the way their creative content is created, distribut"
+      },
+      {
+        "rank": 4,
+        "score": 0.7697021385312428,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_117_120",
+        "section_label": "117_120",
+        "text_preview": "## Whereas: - (117) The codes of practice should represent a central tool for the proper compliance with the obligations provided for under this Regulation for providers of general-purpose AI models. Providers should be able to rely on codes of practice to demonstrate compliance with the obligations"
+      },
+      {
+        "rank": 5,
+        "score": 0.7661238097618337,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_85_88",
+        "section_label": "85_88",
+        "text_preview": "## Whereas: - (85) General-purpose AI systems may be used as high-risk AI systems by themselves or be components of other high-risk AI systems. Therefore, due to their particular nature and in order to ensure a fair sharing of responsibilities along the AI value chain, the providers of such systems "
+      },
+      {
+        "rank": 6,
+        "score": 0.7647386826567731,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_53_56",
+        "section_label": "53_56",
+        "text_preview": "## Whereas: - (53) It is also important to clarify that there may be specific cases in which AI systems referred to in pre-defined areas specified in this Regulation do not lead to a significant risk of harm to the legal interests protected under those areas because they do not materially influence "
+      },
+      {
+        "rank": 7,
+        "score": 0.7559327131876493,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_165_168",
+        "section_label": "165_168",
+        "text_preview": "## Whereas: - (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of cond"
+      },
+      {
+        "rank": 8,
+        "score": 0.7541914672460719,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_161_164",
+        "section_label": "161_164",
+        "text_preview": "## Whereas: - (161) It is necessary to clarify the responsibilities and competences at Union and national level as regards AI systems that are built on general-purpose AI models. To avoid overlapping competences, where an AI system is based on a general-purpose AI model and the model and system are "
+      }
+    ]
+  },
+  {
+    "query": "What risks of generative AI are described in the NIST GenAI Profile?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7327538938039171,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_1",
+        "section_label": "1. Introduction",
+        "text_preview": "This document is a cross -sectoral profile of and companion resource for the AI Risk Management Framework (AI RMF 1.0) for Generative AI , 1 pursuant to President Biden's Executive Order (EO) 14110 on Safe, Secure, and Trustworthy Artificial Intelligence. 2 The AI RMF was released in January 2023, a"
+      },
+      {
+        "rank": 2,
+        "score": 0.7182110279869409,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_133_136",
+        "section_label": "133_136",
+        "text_preview": "## Whereas: - (133) A variety of AI systems can generate large quantities of synthetic content that becomes increasingly hard for humans to distinguish from human-generated and authentic content. The wide availability and increasing capabilities of those systems have a significant impact on the inte"
+      },
+      {
+        "rank": 3,
+        "score": 0.7038952703113059,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_2",
+        "section_label": "2. Overview of Risks Unique to or Exacerbated by GAI",
+        "text_preview": "In the context of the AI RMF, risk refers to the composite measure of an event's probability (or likelihood) of occurring and the magnitude or degree of the consequences of the corresponding event. Some risks can be assessed as likely to materialize in a given context, particularly those that have b"
+      },
+      {
+        "rank": 4,
+        "score": 0.7013318725180131,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_34",
+        "section_label": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented.",
+        "text_preview": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented. | Action ID Suggested Action GAI Risks MS - 2.10 - 001 Conduct AI red - teaming to assess issues such as: Outputting of training data samples, and subsequent reverse engineering, model extra"
+      },
+      {
+        "rank": 5,
+        "score": 0.6990451312036742,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_23",
+        "section_label": "MAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.",
+        "text_preview": "MAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are iden"
+      },
+      {
+        "rank": 6,
+        "score": 0.6983852776893961,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_subsection_12",
+        "section_label": "2.10. Intellectual Property",
+        "text_preview": "Intellectual property risks from GAI systems may arise where the use of copyrighted works is not a fair use under the fair use doctrine. If a GAI system's training data included copyrighted material, GAI outputs displaying instances of training data memorization (see Data Privacy above) could infrin"
+      },
+      {
+        "rank": 7,
+        "score": 0.6957365176111594,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_46",
+        "section_label": "MANAGE 3.2: Pre  -  trained models which are used for development are monitored as part of AI system regular monitoring and  maintenance.  Action ID  Suggested Action  GAI Risks  MG  -  3.2  -  001  Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model  compression/distillation, gradient-based attributions, occlusion/term reduction,  counterfactual prompts, word clouds) as part of ongoing continuous  improvement processes to mitigate risks related to unexplainable GAI systems.  Harmful Bias and Homogenization  MG  -  3.2  -  002  Document how pre-trained models have been adapted (e.g., fine-tuned  ,  or  retrieval  -  augmented generation) for the specific generative task, including any  data augmentations, parameter adjustments, or other modifications. Access to  un-tuned (baseline) models supports debugging the relative influence of the pre-  trained weights compared to the fine-tuned model weights or other system  updates  .  Information Integrity; Data Privacy  MG  -  3.2  -  003  Document sources and types of training data and their origins, potential biases  present in the data related to the GAI application and its content provenance,  architecture, training process of the pre-trained model including information on  hyperparameters, training duration, and any fine-tuning or retrieval-augmented  generation processes applied.  Information Integrity; Harmful Bias  and Homogenization; Intellectual  Property  MG  -  3.2  -  004  Evaluate user reported problematic content and integrate feedback into system  updates.  Human  -  AI Configuration  ,  Dangerous, Violent, or Hateful  Content  MG  -  3.2  -  005  Implement content filters to prevent the generation of inappropriate, harmful,  false, illegal, or violent content related to the GAI application, including for CSAM  and NCII. These filters can be rule  -  based or leverage additional machine learning  models to flag problematic inputs and outputs.  Information Integrity; Harmful Bias  and Homogenization; Dangerous  ,  Violent, or Hateful Content;  Obscene, Degrading, and/or  Abusive Content  MG  -  3.2  -  006  Implement real-time monitoring processes for analyzing generated content  performance and trustworthiness characteristics related to content provenance  to identify deviations from the desired standards and trigger alerts for human  intervention.  Information Integrity",
+        "text_preview": "MANAGE 3.2: Pre - trained models which are used for development are monitored as part of AI system regular monitoring and maintenance. Action ID Suggested Action GAI Risks MG - 3.2 - 001 Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model compression/distillation, gradient-bas"
+      },
+      {
+        "rank": 8,
+        "score": 0.6891352361185863,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_14",
+        "section_label": "Who should read this document?",
+        "text_preview": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an () py pyy organisation or making use of external application programming interfaces (APIs). However, we urge all () gg pppgg g stakeholders (including data scientists, developers, managers, decision-mak"
+      }
+    ]
+  },
+  {
+    "query": "What actions does NIST suggest for managing generative AI risks?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7416578112558806,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_1",
+        "section_label": "1. Introduction",
+        "text_preview": "This document is a cross -sectoral profile of and companion resource for the AI Risk Management Framework (AI RMF 1.0) for Generative AI , 1 pursuant to President Biden's Executive Order (EO) 14110 on Safe, Secure, and Trustworthy Artificial Intelligence. 2 The AI RMF was released in January 2023, a"
+      },
+      {
+        "rank": 2,
+        "score": 0.7380528644232491,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_45",
+        "section_label": "Multilayer Framework for Good Cybersecurity Practices for AI — ENISA (europa.eu)",
+        "text_preview": "A framework to guide National Competent Authorities and AI stakeholders on the steps they need to follow to secure their AI systems, operations and processes"
+      },
+      {
+        "rank": 3,
+        "score": 0.7075305696851114,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_34",
+        "section_label": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented.",
+        "text_preview": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented. | Action ID Suggested Action GAI Risks MS - 2.10 - 001 Conduct AI red - teaming to assess issues such as: Outputting of training data samples, and subsequent reverse engineering, model extra"
+      },
+      {
+        "rank": 4,
+        "score": 0.701224064939114,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_133_136",
+        "section_label": "133_136",
+        "text_preview": "## Whereas: - (133) A variety of AI systems can generate large quantities of synthetic content that becomes increasingly hard for humans to distinguish from human-generated and authentic content. The wide availability and increasing capabilities of those systems have a significant impact on the inte"
+      },
+      {
+        "rank": 5,
+        "score": 0.6944982040462944,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_14",
+        "section_label": "Who should read this document?",
+        "text_preview": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an () py pyy organisation or making use of external application programming interfaces (APIs). However, we urge all () gg pppgg g stakeholders (including data scientists, developers, managers, decision-mak"
+      },
+      {
+        "rank": 6,
+        "score": 0.6904265845966464,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_73_76",
+        "section_label": "73_76",
+        "text_preview": "## Whereas: - (73) High-risk AI systems should be designed and developed in such a way that natural persons can oversee their functioning, ensure that they are used as intended and that their impacts are addressed over the system's lifecycle. To that end, appropriate human oversight measures should "
+      },
+      {
+        "rank": 7,
+        "score": 0.6868768478189682,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_38",
+        "section_label": "MEASURE 3.2: Risk tracking approaches are considered for settings where AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available.  Action ID  Suggested Action  GAI Risks  MS  -  3.2  -  001  Establish processes for identifying emergent GAI system risks including  consulting with external AI Actors  .  Human  -  AI Configuration;  Confabulation  AI Actor Tasks: AI Impact Assessment, Domain Experts, Operation and Monitoring, TEVV",
+        "text_preview": "MEASURE 3.2: Risk tracking approaches are considered for settings where AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available. Action ID Suggested Action GAI Risks MS - 3.2 - 001 Establish processes for identifying emergent GAI syste"
+      },
+      {
+        "rank": 8,
+        "score": 0.6857160130554607,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_46",
+        "section_label": "MANAGE 3.2: Pre  -  trained models which are used for development are monitored as part of AI system regular monitoring and  maintenance.  Action ID  Suggested Action  GAI Risks  MG  -  3.2  -  001  Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model  compression/distillation, gradient-based attributions, occlusion/term reduction,  counterfactual prompts, word clouds) as part of ongoing continuous  improvement processes to mitigate risks related to unexplainable GAI systems.  Harmful Bias and Homogenization  MG  -  3.2  -  002  Document how pre-trained models have been adapted (e.g., fine-tuned  ,  or  retrieval  -  augmented generation) for the specific generative task, including any  data augmentations, parameter adjustments, or other modifications. Access to  un-tuned (baseline) models supports debugging the relative influence of the pre-  trained weights compared to the fine-tuned model weights or other system  updates  .  Information Integrity; Data Privacy  MG  -  3.2  -  003  Document sources and types of training data and their origins, potential biases  present in the data related to the GAI application and its content provenance,  architecture, training process of the pre-trained model including information on  hyperparameters, training duration, and any fine-tuning or retrieval-augmented  generation processes applied.  Information Integrity; Harmful Bias  and Homogenization; Intellectual  Property  MG  -  3.2  -  004  Evaluate user reported problematic content and integrate feedback into system  updates.  Human  -  AI Configuration  ,  Dangerous, Violent, or Hateful  Content  MG  -  3.2  -  005  Implement content filters to prevent the generation of inappropriate, harmful,  false, illegal, or violent content related to the GAI application, including for CSAM  and NCII. These filters can be rule  -  based or leverage additional machine learning  models to flag problematic inputs and outputs.  Information Integrity; Harmful Bias  and Homogenization; Dangerous  ,  Violent, or Hateful Content;  Obscene, Degrading, and/or  Abusive Content  MG  -  3.2  -  006  Implement real-time monitoring processes for analyzing generated content  performance and trustworthiness characteristics related to content provenance  to identify deviations from the desired standards and trigger alerts for human  intervention.  Information Integrity",
+        "text_preview": "MANAGE 3.2: Pre - trained models which are used for development are monitored as part of AI system regular monitoring and maintenance. Action ID Suggested Action GAI Risks MG - 3.2 - 001 Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model compression/distillation, gradient-bas"
+      }
+    ]
+  },
+  {
+    "query": "What does NIST say about privacy risks in generative AI?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7207106169135433,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_133_136",
+        "section_label": "133_136",
+        "text_preview": "## Whereas: - (133) A variety of AI systems can generate large quantities of synthetic content that becomes increasingly hard for humans to distinguish from human-generated and authentic content. The wide availability and increasing capabilities of those systems have a significant impact on the inte"
+      },
+      {
+        "rank": 2,
+        "score": 0.7140858258200805,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_34",
+        "section_label": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented.",
+        "text_preview": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented. | Action ID Suggested Action GAI Risks MS - 2.10 - 001 Conduct AI red - teaming to assess issues such as: Outputting of training data samples, and subsequent reverse engineering, model extra"
+      },
+      {
+        "rank": 3,
+        "score": 0.7031005433248977,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_subsection_6",
+        "section_label": "2.4. Data Privacy",
+        "text_preview": "GAI systems raise several risks to privacy. GAI system training requires large volumes of data, which in some cases may include personal data. The use of personal data for GAI training raises risks to widely accepted privacy principles, including to transparency, individual participation (including "
+      },
+      {
+        "rank": 4,
+        "score": 0.6960535512138256,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_1",
+        "section_label": "1. Introduction",
+        "text_preview": "This document is a cross -sectoral profile of and companion resource for the AI Risk Management Framework (AI RMF 1.0) for Generative AI , 1 pursuant to President Biden's Executive Order (EO) 14110 on Safe, Secure, and Trustworthy Artificial Intelligence. 2 The AI RMF was released in January 2023, a"
+      },
+      {
+        "rank": 5,
+        "score": 0.6952570843056411,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_subsection_12",
+        "section_label": "2.10. Intellectual Property",
+        "text_preview": "Intellectual property risks from GAI systems may arise where the use of copyrighted works is not a fair use under the fair use doctrine. If a GAI system's training data included copyrighted material, GAI outputs displaying instances of training data memorization (see Data Privacy above) could infrin"
+      },
+      {
+        "rank": 6,
+        "score": 0.680564526890078,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_14",
+        "section_label": "Who should read this document?",
+        "text_preview": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an () py pyy organisation or making use of external application programming interfaces (APIs). However, we urge all () gg pppgg g stakeholders (including data scientists, developers, managers, decision-mak"
+      },
+      {
+        "rank": 7,
+        "score": 0.6690247887631072,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_27",
+        "section_label": "MEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population.",
+        "text_preview": "MEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population. | Action ID Suggested Action GAI Risks MS - 2.2 - 001 Assess and manage statistical biases related to GAI content provenance through "
+      },
+      {
+        "rank": 8,
+        "score": 0.664136772569272,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_93_96",
+        "section_label": "93_96",
+        "text_preview": "## Whereas: - (93) Whilst risks related to AI systems can result from the way such systems are designed, risks can as well stem from how such AI systems are used. Deployers of high-risk AI system therefore play a critical role in ensuring that fundamental rights are protected, complementing the obli"
+      }
+    ]
+  },
+  {
+    "query": "What guidance is given for secure AI system development?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8283247944842348,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_45",
+        "section_label": "Multilayer Framework for Good Cybersecurity Practices for AI — ENISA (europa.eu)",
+        "text_preview": "A framework to guide National Competent Authorities and AI stakeholders on the steps they need to follow to secure their AI systems, operations and processes"
+      },
+      {
+        "rank": 2,
+        "score": 0.7781289347716572,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_33",
+        "section_label": "4. Secure operation and maintenance",
+        "text_preview": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing."
+      },
+      {
+        "rank": 3,
+        "score": 0.7663314793257606,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_11",
+        "section_label": "4. Secure operation and maintenance",
+        "text_preview": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing. The"
+      },
+      {
+        "rank": 4,
+        "score": 0.7641191198805436,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_41",
+        "section_label": "Secure by Design - Shifting the Balance of Cybersecurity Risk: Principles and Approaches for Secure by Design Software",
+        "text_preview": "Co-authored by CISA, the NCSC and other agencies, this guidance describes how manufacturers of software systems, including AI, should take steps to factor security into the design stage of product development, and ship products that come secure out of the box."
+      },
+      {
+        "rank": 5,
+        "score": 0.7604432410125606,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_20",
+        "section_label": "Design your system for security as well as functionality and performance",
+        "text_preview": "You are confident that the task at hand is most appropriately addressed using AI. Having determined this, you assess the appropriateness of your AI-specific design choices. You consider your threat model and associated security mitigations alongside functionality, user experience, deployment environ"
+      },
+      {
+        "rank": 6,
+        "score": 0.7597571863179186,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_14",
+        "section_label": "Who should read this document?",
+        "text_preview": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an () py pyy organisation or making use of external application programming interfaces (APIs). However, we urge all () gg pppgg g stakeholders (including data scientists, developers, managers, decision-mak"
+      },
+      {
+        "rank": 7,
+        "score": 0.747863506327123,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_12",
+        "section_label": "Introduction",
+        "text_preview": "Artificial intelligence (AI) systems have the potential to bring many benefits to society. However, for the opportunities of AI to be fully realised, it must be developed, deployed and operated in a secure and responsible way. Cyber security is a necessary precondition for the safety, resilience, pr"
+      },
+      {
+        "rank": 8,
+        "score": 0.7380931404432027,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_52",
+        "section_label": "Introducing Artificial Intelligence",
+        "text_preview": "Blog from the Australian Cyber Security Centre which provides approachable guidance on Artificial Intelligence and how to securely engage with it. Open-source projects to help users security test AI models include: - &gt; Adversarial Robustness Toolbox (IBM) - &gt; CleverHans (University of Toronto)"
+      }
+    ]
+  },
+  {
+    "query": "What does the secure AI guidance say about secure deployment and maintenance?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.8212532744907312,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_33",
+        "section_label": "4. Secure operation and maintenance",
+        "text_preview": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing."
+      },
+      {
+        "rank": 2,
+        "score": 0.7964617637555536,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_11",
+        "section_label": "4. Secure operation and maintenance",
+        "text_preview": "This section contains guidelines that apply to the secure operation and maintenance stage of the AI system development life cycle. It provides guidelines on actions particularly relevant once a system has been deployed, including logging and monitoring, update management and information sharing. The"
+      },
+      {
+        "rank": 3,
+        "score": 0.7867297710510397,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_45",
+        "section_label": "Multilayer Framework for Good Cybersecurity Practices for AI — ENISA (europa.eu)",
+        "text_preview": "A framework to guide National Competent Authorities and AI stakeholders on the steps they need to follow to secure their AI systems, operations and processes"
+      },
+      {
+        "rank": 4,
+        "score": 0.7565624806507188,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_20",
+        "section_label": "Design your system for security as well as functionality and performance",
+        "text_preview": "You are confident that the task at hand is most appropriately addressed using AI. Having determined this, you assess the appropriateness of your AI-specific design choices. You consider your threat model and associated security mitigations alongside functionality, user experience, deployment environ"
+      },
+      {
+        "rank": 5,
+        "score": 0.7397689946723263,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_12",
+        "section_label": "Introduction",
+        "text_preview": "Artificial intelligence (AI) systems have the potential to bring many benefits to society. However, for the opportunities of AI to be fully realised, it must be developed, deployed and operated in a secure and responsible way. Cyber security is a necessary precondition for the safety, resilience, pr"
+      },
+      {
+        "rank": 6,
+        "score": 0.7360727936910592,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_40",
+        "section_label": "MEASURE 4.2: Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle are informed by input from domain experts and relevant AI Actors to validate whether the system is performing consistently as intended. Results are documented.",
+        "text_preview": "MEASURE 4.2: Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle are informed by input from domain experts and relevant AI Actors to validate whether the system is performing consistently as intended. Results are documented. | Action ID Sugges"
+      },
+      {
+        "rank": 7,
+        "score": 0.7326887892524159,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_14",
+        "section_label": "Who should read this document?",
+        "text_preview": "This document is aimed primarily at providers of AI systems, whether based on models hosted by an () py pyy organisation or making use of external application programming interfaces (APIs). However, we urge all () gg pppgg g stakeholders (including data scientists, developers, managers, decision-mak"
+      },
+      {
+        "rank": 8,
+        "score": 0.7268571596210237,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_73_76",
+        "section_label": "73_76",
+        "text_preview": "## Whereas: - (73) High-risk AI systems should be designed and developed in such a way that natural persons can oversee their functioning, ensure that they are used as intended and that their impacts are addressed over the system's lifecycle. To that end, appropriate human oversight measures should "
+      }
+    ]
+  },
+  {
+    "query": "What governance and compliance requirements are mentioned across these AI documents?",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.7709773838709483,
+        "doc_id": "nist_genai_ai_profile_001",
+        "chunk_id": "nist_genai_ai_profile_001_section_15_sub_01",
+        "section_label": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.  Action ID  Suggested Action  GAI Risks  GV  -  1.1  -  001  Align GAI development and use with applicable laws and regulations, including  those related to data privacy, copyright and intellectual property law.  Data Privacy; Harmful Bias and  Homogenization; Intellectual  Property  ## AI Actor Tasks: Governance and Oversight",
+        "text_preview": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented. Action ID Suggested Action GAI Risks GV - 1.1 - 001 Align GAI development and use with applicable laws and regulations, including those related to data privacy, copyright and intellectual property law"
+      },
+      {
+        "rank": 2,
+        "score": 0.7598207673786367,
+        "doc_id": "ncsc_secure_ai_001",
+        "chunk_id": "ncsc_secure_ai_001_section_45",
+        "section_label": "Multilayer Framework for Good Cybersecurity Practices for AI — ENISA (europa.eu)",
+        "text_preview": "A framework to guide National Competent Authorities and AI stakeholders on the steps they need to follow to secure their AI systems, operations and processes"
+      },
+      {
+        "rank": 3,
+        "score": 0.7591488453346278,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_165_168",
+        "section_label": "165_168",
+        "text_preview": "## Whereas: - (165) The development of AI systems other than high-risk AI systems in accordance with the requirements of this Regulation may lead to a larger uptake of ethical and trustworthy AI in the Union. Providers of AI systems that are not high-risk should be encouraged to create codes of cond"
+      },
+      {
+        "rank": 4,
+        "score": 0.7495500862286887,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_137_140",
+        "section_label": "137_140",
+        "text_preview": "## Whereas: - (137) Compliance with the transparency obligations for the AI systems covered by this Regulation should not be interpreted as indicating that the use of the AI system or its output is lawful under this Regulation or other Union and Member State law and should be without prejudice to ot"
+      },
+      {
+        "rank": 5,
+        "score": 0.7354501581963976,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_109_112",
+        "section_label": "109_112",
+        "text_preview": "## Whereas: - (109) Compliance with the obligations applicable to the providers of general-purpose AI models should be commensurate and proportionate to the type of model provider, r, ex cluding the need for compliance for persons who develop or use models for non-professional or scientific research"
+      },
+      {
+        "rank": 6,
+        "score": 0.7345140492610802,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_69_72",
+        "section_label": "69_72",
+        "text_preview": "## Whereas: - (69) The right to privacy and to protection of personal data must be guaranteed throughout the entire lifecycle of the AI system. In this regard , the principles of data minimisation and data protection by design and by default, as set out in Union data protection law, w, are applicabl"
+      },
+      {
+        "rank": 7,
+        "score": 0.7328809387277149,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_89_92",
+        "section_label": "89_92",
+        "text_preview": "## Whereas: - (89) Third parties making accessible to the public tools, services, processes, or AI components other than general-purpose AI models, should not be mandated to comply with requirements targeting the responsibilities along the AI value chain, in particular towards the provider that has "
+      },
+      {
+        "rank": 8,
+        "score": 0.7282039595997576,
+        "doc_id": "eu_ai_act_001",
+        "chunk_id": "eu_ai_act_001_recitals_77_80",
+        "section_label": "77_80",
+        "text_preview": "## Whereas: - (77) Without prejudice to the requirements related to robustness and accuracy set out in this Regulation, high-risk AI systems which fall within the scope of a regulation of the European Parliament and of the Council on horizontal cybersecurity requirements for products with digital el"
+      }
+    ]
+  }
+]
