@@ -1,5 +1,5 @@
 # scripts/embed_chunks_qdrant.py
-
+import hashlib
 import json
 from pathlib import Path
 from typing import List
@@ -15,6 +15,10 @@ COLLECTION_NAME = "ai_governance_chunks"
 MODEL_NAME = "BAAI/bge-base-en-v1.5"
 BATCH_SIZE = 32
 
+
+def make_point_id(chunk_id: str) -> int:
+    digest = hashlib.md5(chunk_id.encode("utf-8")).hexdigest()
+    return int(digest[:12], 16)
 
 def load_chunks(path: Path) -> List[dict]:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -42,9 +46,12 @@ def main():
     chunks = [
         chunk for chunk in chunks
         if chunk.get("section_type") != "title_block"
-           and "appendix" not in chunk.get("section_label", "").lower()
            and "references" not in chunk.get("section_label", "").lower()
+           and chunk.get("text", "").strip()
     ]
+    if not chunks:
+        print("No chunks found.")
+
     texts = [chunk["text"] for chunk in chunks]
 
     print(f"Loaded {len(chunks)} chunks")
@@ -76,11 +83,11 @@ def main():
     )
 
     points = []
-    for idx, (chunk, vector) in enumerate(zip(chunks, embeddings)):
+    for chunk, vector in zip(chunks, embeddings):
         payload = build_payload(chunk)
         points.append(
             PointStruct(
-                id=idx,
+                id=make_point_id(chunk["chunk_id"]),
                 vector=vector.tolist(),
                 payload=payload,
             )

@@ -1,15 +1,11 @@
 {
-  "input_count": 164,
-  "kept_count": 161,
+  "input_count": 278,
+  "kept_count": 278,
   "dropped_missing_fields": [],
   "dropped_empty_text": [],
   "dropped_too_short": [],
   "dropped_duplicate_chunk_id": [],
-  "dropped_duplicate_text": [
-    "ncsc_secure_ai_001_section_17",
-    "ncsc_secure_ai_001_section_27",
-    "ncsc_secure_ai_001_section_48"
-  ],
+  "dropped_duplicate_text": [],
   "flagged_too_long": [],
   "flagged_suspicious": []
 }

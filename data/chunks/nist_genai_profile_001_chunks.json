@@ -9,7 +9,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_1",
+    "chunk_id": "nist_genai_ai_profile_001_section_1_introduction",
     "section_type": "section",
     "section_label": "1. Introduction",
     "source_file": "nist_genai_profile_001.pdf",
@@ -17,7 +17,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_2",
+    "chunk_id": "nist_genai_ai_profile_001_section_2_overview_of_risks_unique_to_or_exacerbated_by_gai",
     "section_type": "section",
     "section_label": "2. Overview of Risks Unique to or Exacerbated by GAI",
     "source_file": "nist_genai_profile_001.pdf",
@@ -25,7 +25,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_3",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_1_cbrn_information_or_capabilities",
     "section_type": "subsection",
     "section_label": "2.1. CBRN Information or Capabilities",
     "source_file": "nist_genai_profile_001.pdf",
@@ -33,7 +33,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_4",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_2_confabulation",
     "section_type": "subsection",
     "section_label": "2.2. Confabulation",
     "source_file": "nist_genai_profile_001.pdf",
@@ -41,7 +41,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_5",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_3_dangerous_violent_or_hateful_content",
     "section_type": "subsection",
     "section_label": "2.3. Dangerous , Violent, or Hateful Content",
     "source_file": "nist_genai_profile_001.pdf",
@@ -49,7 +49,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_6",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_4_data_privacy",
     "section_type": "subsection",
     "section_label": "2.4. Data Privacy",
     "source_file": "nist_genai_profile_001.pdf",
@@ -57,7 +57,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_7",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_5_environmental_impacts",
     "section_type": "subsection",
     "section_label": "2.5. Environmental Impacts",
     "source_file": "nist_genai_profile_001.pdf",
@@ -65,7 +65,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_8",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_6_harmful_bias_and_homogenization",
     "section_type": "subsection",
     "section_label": "2.6. Harmful Bias and Homogenization",
     "source_file": "nist_genai_profile_001.pdf",
@@ -73,7 +73,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_9",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_7_human_ai_configuration",
     "section_type": "subsection",
     "section_label": "2.7. Human -AI Configuration",
     "source_file": "nist_genai_profile_001.pdf",
@@ -81,7 +81,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_10",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_8_information_integrity",
     "section_type": "subsection",
     "section_label": "2.8. Information Integrity",
     "source_file": "nist_genai_profile_001.pdf",
@@ -89,7 +89,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_11",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_9_information_security",
     "section_type": "subsection",
     "section_label": "2.9. Information Security",
     "source_file": "nist_genai_profile_001.pdf",
@@ -97,7 +97,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_12",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_10_intellectual_property",
     "section_type": "subsection",
     "section_label": "2.10. Intellectual Property",
     "source_file": "nist_genai_profile_001.pdf",
@@ -105,7 +105,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_13",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_11_obscene_degrading_and_or_abusive_content",
     "section_type": "subsection",
     "section_label": "2.11. Obscene, Degrading, and/or Abusive Content",
     "source_file": "nist_genai_profile_001.pdf",
@@ -113,7 +113,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_subsection_14",
+    "chunk_id": "nist_genai_ai_profile_001_subsection_2_12_value_chain_and_component_integration",
     "section_type": "subsection",
     "section_label": "2.12. Value Chain and Component Integration",
     "source_file": "nist_genai_profile_001.pdf",
@@ -121,7 +121,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_intro",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_intro",
     "section_type": "section_intro",
     "section_label": "3. Suggested Actions to Manage GAI Risks",
     "source_file": "nist_genai_profile_001.pdf",
@@ -129,7 +129,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_01",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_1",
     "section_type": "subsection",
     "section_label": "GOVERN 1.1: Legal and regulatory requirements involving AI are understood, managed, and documented.  Action ID  Suggested Action  GAI Risks  GV  -  1.1  -  001  Align GAI development and use with applicable laws and regulations, including  those related to data privacy, copyright and intellectual property law.  Data Privacy; Harmful Bias and  Homogenization; Intellectual  Property  ## AI Actor Tasks: Governance and Oversight",
     "source_file": "nist_genai_profile_001.pdf",
@@ -137,7 +137,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_02",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_2",
     "section_type": "subsection",
     "section_label": "GOVERN 1.2: The characteristics of trustworthy AI are integrated into organizational policies, processes, procedures, and practices.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -145,7 +145,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_03",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_3",
     "section_type": "subsection",
     "section_label": "GOVERN 1.3: Processes, procedures, and practices are in place to determine the needed level of risk management activities based on the organization's risk tolerance.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -153,7 +153,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_04",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_4",
     "section_type": "subsection",
     "section_label": "GOVERN 1.4: The risk management process and its outcomes are established through transparent policies, procedures, and other controls based on organizational risk priorities.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -161,7 +161,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_05",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_5",
     "section_type": "subsection",
     "section_label": "GOVERN 1.5: Ongoing monitoring and periodic review of the risk management process and its outcomes are planned, and organizational roles and responsibilities are clearly defined, including determining the frequency of periodic review.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -169,7 +169,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_06",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_6",
     "section_type": "subsection",
     "section_label": "GOVERN 1.6: Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -177,7 +177,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_07",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_1_7",
     "section_type": "subsection",
     "section_label": "GOVERN 1.7: Processes and procedures are in place for decommissioning and phasing out AI systems safely and in a manner that does not increase risks or decrease the organization's trustworthiness.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -185,7 +185,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_08",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_2_1",
     "section_type": "subsection",
     "section_label": "GOVERN 2.1: Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks are documented and are clear to individuals and teams throughout the organization.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -193,7 +193,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_09",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_3_2",
     "section_type": "subsection",
     "section_label": "GOVERN 3.2: Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -201,7 +201,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_10",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_4_1",
     "section_type": "subsection",
     "section_label": "GOVERN 4.1: Organizational policies and practices are in place to foster a critical thinking and safety-first mindset in the design, development, deployment, and uses of AI systems to minimize potential negative impacts.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -209,7 +209,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_11",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_4_2",
     "section_type": "subsection",
     "section_label": "GOVERN 4.2: Organizational teams document the risks and potential impacts of the AI technology they design, develop, deploy, evaluate, and use, and they communicate about the impacts more broadly.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -217,7 +217,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_12",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_4_3",
     "section_type": "subsection",
     "section_label": "GOVERN 4.3: Organizational practices are in place to enable AI testing, identification of incidents, and information sharing.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -225,7 +225,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_13",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_5_1",
     "section_type": "subsection",
     "section_label": "GOVERN 5.1: Organizational policies and practices are in place to collect, consider, prioritize, and integrate feedback from those external to the team that developed or deployed the AI system regarding the potential individual and societal impacts related to AI risks.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -233,7 +233,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_14",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_6_1",
     "section_type": "subsection",
     "section_label": "GOVERN 6.1: Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third-party's intellectual property or other rights.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -241,7 +241,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_15",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_GOVERN_6_2",
     "section_type": "subsection",
     "section_label": "GOVERN 6.2: Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -249,7 +249,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_16",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_1_1",
     "section_type": "subsection",
     "section_label": "MAP 1.1: Intended purposes, potentially beneficial uses, context specific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented. Considerations include: the specific set or types of users along with their expectations; potential positive and negative impacts of system uses to individuals, communities, organizations, society, and the planet; assumptions and related limitations about AI system purposes, uses, and risks across the development or product AI lifecycle; and related TEVV and system metrics.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -257,7 +257,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_17",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_1_2",
     "section_type": "subsection",
     "section_label": "MAP 1.2: Interdisciplinary AI Actors, competencies, skills, and capacities for establishing context reflect demographic diversity and broad domain and user experience expertise, and their participation is documented. Opportunities for interdisciplinary collaboration are prioritized.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -265,7 +265,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_18",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_2_1",
     "section_type": "subsection",
     "section_label": "MAP 2.1: The specific tasks and methods used to implement the tasks that the AI system will support are defined (e.g., classifiers, generative models, recommenders).",
     "source_file": "nist_genai_profile_001.pdf",
@@ -273,7 +273,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_19",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_2_2",
     "section_type": "subsection",
     "section_label": "MAP 2.2: Information about the AI system's knowledge limits and how system output may be utilized and overseen by humans is documented. Documentation provides sufficient information to assist relevant AI Actors when making decisions and taking subsequent actions.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -281,7 +281,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_20",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_2_3",
     "section_type": "subsection",
     "section_label": "MAP 2.3: Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation",
     "source_file": "nist_genai_profile_001.pdf",
@@ -289,7 +289,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_21",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_3_4",
     "section_type": "subsection",
     "section_label": "MAP 3.4: Processes for operator and practitioner proficiency with AI system performance and trustworthiness – and relevant technical standards and certifications – – are defined, assessed, and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -297,7 +297,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_22",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_4_1",
     "section_type": "subsection",
     "section_label": "MAP 4.1: Approaches for mapping AI technology and legal risks of its components – including the use of third-party data or software – – are in place, followed, and documented, as are risks of infringement of a third-party's intellectual property or other rights.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -305,7 +305,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_23",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_5_1",
     "section_type": "subsection",
     "section_label": "MAP 5.1: Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -313,7 +313,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_24",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MAP_5_2",
     "section_type": "subsection",
     "section_label": "MAP 5.2: Practices and personnel for supporting regular engagement with relevant AI Actors and integrating feedback about positive, negative, and unanticipated impacts are in place and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -321,7 +321,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_25",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_1_1",
     "section_type": "subsection",
     "section_label": "MEASURE 1.1: Approaches and metrics for measurement of AI risks enumerated during the MAP function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -329,7 +329,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_26",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_1_3",
     "section_type": "subsection",
     "section_label": "MEASURE 1.3: Internal experts who did not serve as front-line developers for the system and/or independent assessors are involved in regular assessments and updates. Domain experts, users, AI Actors external to the team that developed or deployed the AI system, and affected communities are consulted in support of assessments as necessary per organizational risk tolerance .",
     "source_file": "nist_genai_profile_001.pdf",
@@ -337,7 +337,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_27",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_2",
     "section_type": "subsection",
     "section_label": "MEASURE 2.2: Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -345,7 +345,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_28",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_3",
     "section_type": "subsection",
     "section_label": "MEASURE 2.3: AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -353,7 +353,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_29",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_5",
     "section_type": "subsection",
     "section_label": "MEASURE 2.5: The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -361,7 +361,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_30",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_6",
     "section_type": "subsection",
     "section_label": "MEASURE 2.6: The AI system is evaluated regularly for safety risks – as identified in the MAP function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -369,7 +369,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_31",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_7",
     "section_type": "subsection",
     "section_label": "MEASURE 2.7: AI system security and resilience – as identified in the MAP function – are evaluated and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -377,7 +377,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_32",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_8",
     "section_type": "subsection",
     "section_label": "MEASURE 2.8: Risks associated with transparency and accountability – as identified in the MAP function – are examined and documented.  Action ID  Suggested Action  GAI Risks  MS  -  2.8  -  001  Compile statistics on actual policy violations, take-down requests, and intellectual  property infringement for organizational GAI systems: Analyze transparency  reports across demographic groups, languages groups  .  Intellectual Property; Harmful Bias  and Homogenization  MS  -  2.8  -  002  Document the instructions given to data annotators or AI red-teamers.  Human-AI Configuration  MS  -  2.8-003  Use digital content transparency solutions to enable the documentation of each  instance where content is generated, modified, or shared to provide a tamper-  proof history of the content, promote transparency, and enable traceability.  Robust version control systems can also be applied to track changes across the AI  lifecycle over time.  Information Integrity  MS  -  2.8  -  004  Verify adequacy of GAI system user instructions through user testing.  Human-AI Configuration  AI Actor Tasks: AI Deployment, AI Impact Assessment, Domain Experts, Operation and Monitoring, TEVV",
     "source_file": "nist_genai_profile_001.pdf",
@@ -385,7 +385,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_33",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_9",
     "section_type": "subsection",
     "section_label": "MEASURE 2.9: The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the MAP function – – to inform responsible use and governance.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -393,7 +393,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_34",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_10",
     "section_type": "subsection",
     "section_label": "MEASURE 2.10: Privacy risk of the AI system – as identified in the MAP function – is examined and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -401,7 +401,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_35",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_11",
     "section_type": "subsection",
     "section_label": "MEASURE 2.11: Fairness and bias – – as identified in the MAP function – – are evaluated and results are documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -409,7 +409,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_36",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_12",
     "section_type": "subsection",
     "section_label": "MEASURE 2.12: Environmental impact and sustainability of AI model training and management activities – as identified in the MAP function – – are assessed and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -417,7 +417,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_37",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_2_13",
     "section_type": "subsection",
     "section_label": "MEASURE 2.13: Effectiveness of the employed TEVV metrics and processes in the MEASURE function are evaluated and documented.  Action ID  Suggested Action  GAI Risks  MS  -  2.13  -  001  Create measurement error models for pre-deployment metrics to demonstrate  construct validity for each metric (i.e., does the metric effectively operationalize  the desired concept): Measure or estimate, and document, biases or statistical  variance in applied metrics or structured human feedback processes; Leverage  domain expertise when modeling complex societal constructs such as hateful  content  .  Confabulation; Information  Integrity; Harmful Bias and  Homogenization  AI Actor Tasks: AI Deployment, Operation and Monitoring, TEVV",
     "source_file": "nist_genai_profile_001.pdf",
@@ -425,7 +425,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_38",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_3_2",
     "section_type": "subsection",
     "section_label": "MEASURE 3.2: Risk tracking approaches are considered for settings where AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available.  Action ID  Suggested Action  GAI Risks  MS  -  3.2  -  001  Establish processes for identifying emergent GAI system risks including  consulting with external AI Actors  .  Human  -  AI Configuration;  Confabulation  AI Actor Tasks: AI Impact Assessment, Domain Experts, Operation and Monitoring, TEVV",
     "source_file": "nist_genai_profile_001.pdf",
@@ -433,7 +433,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_39",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_3_3",
     "section_type": "subsection",
     "section_label": "MEASURE 3.3: Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -441,7 +441,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_40",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MEASURE_4_2",
     "section_type": "subsection",
     "section_label": "MEASURE 4.2: Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle are informed by input from domain experts and relevant AI Actors to validate whether the system is performing consistently as intended. Results are documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -449,7 +449,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_41",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_1_3",
     "section_type": "subsection",
     "section_label": "MANAGE 1.3: Responses to the AI risks deemed high priority, as identified by the MAP function, are developed, planned, and documented. Risk response options can include mitigating, transferring, avoiding, or accepting.  Action ID  Suggested Action  GAI Risks  MG  -  1.3  -  001  Document trade  -  offs, decision processes, and relevant measurement and  feedback results for risks that do not surpass organizational risk tolerance, for  example, in the context of model release: Consider different approaches for  model release, for example  ,  leveraging a staged release approach. Consider  release approaches in the context of the model and its projected use cases.  Mitigate, transfer, or avoid risks that surpass organizational risk tolerances.  Information Security  MG  -  1.3  -  002  Monitor the robustness and effectiveness of risk controls and mitigation plans  (e.g., via red-teaming, field testing, participatory engagements, performance  assessments, user feedback mechanisms).  Human  -  AI Configuration  AI Actor Tasks: AI Development, AI Deployment, AI Impact Assessment, Operation and Monitoring",
     "source_file": "nist_genai_profile_001.pdf",
@@ -457,7 +457,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_42",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_2_2",
     "section_type": "subsection",
     "section_label": "MANAGE 2.2: Mechanisms are in place and applied to sustain the value of deployed AI systems.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -465,7 +465,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_43",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_2_3",
     "section_type": "subsection",
     "section_label": "MANAGE 2.3: Procedures are followed to respond to and recover from a previously unknown risk when it is identified.  Action ID  Suggested Action  GAI Risks  MG  -  2.3  -  001  Develop and update GAI system incident response and recovery plans and  procedures to address the following: Review and maintenance of policies and  procedures to account for newly encountered uses; Review and maintenance of  policies and procedures for detection of unanticipated uses; Verify response  and recovery plans account for the GAI system value chain; Verify response and  recovery plans are updated for and include necessary details to communicate  with downstream GAI system Actors: Points-of-Contact (POC), Contact  information, notification format.  Value Chain and Component  Integration  AI Actor Tasks: AI Deployment, Operation and Monitoring",
     "source_file": "nist_genai_profile_001.pdf",
@@ -473,7 +473,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_44",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_2_4",
     "section_type": "subsection",
     "section_label": "MANAGE 2.4: Mechanisms are in place and applied, and responsibilities are assigned and understood, to supersede, disengage, or deactivate AI systems that demonstrate performance or outcomes inconsistent with intended use.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -481,7 +481,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_45",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_3_1",
     "section_type": "subsection",
     "section_label": "MANAGE 3.1: AI risks and benefits from third - party resources are regularly monitored, and risk controls are applied and documented.  Action ID  Suggested Action  GAI Risks  MG  -  3.1  -  001  Apply organizational risk tolerances and controls (e.g., acquisition and  procurement processes; assessing personnel credentials and qualifications,  performing background checks; filtering GAI input and outputs, grounding, fine  tuning  ,  retrieval  -  augmented generation) to third-party GAI resources: Apply  organizational risk tolerance to the utilization of third-party datasets and other  GAI resources; Apply organizational risk tolerances to fine-tuned third-party  models; Apply organizational risk tolerance to existing third-party models  adapted to a new domain; Reassess risk measurements after fine-tuning third-  party GAI models.  Value Chain and Component  Integration; Intellectual Property  MG  -  3.1  -  002  Test GAI system value chain risks (e.g., data poisoning, malware, other software  and hardware vulnerabilities; labor practices; data privacy and localization  compliance; geopolitical alignment).  Data Privacy; Information Security;  Value Chain and Component  Integration; Harmful Bias and  Homogenization  MG  -  3.1  -  003  Re  -  assess model risks after fine  -  tuning or retrieval-augmented generation  implementation and for any third-party GAI models deployed for applications  and/or use cases that were not evaluated in initial testing.  Value Chain and Component  Integration  MG  -  3.1  -  004  Take reasonable measures to review training data for CBRN information, and  intellectual property, and where appropriate, remove it. Implement reasonable  measures to prevent, flag, or take other action in response to outputs that  reproduce particular training data (e.g., plagiarized, trademarked, patented,  licensed content or trade secret material).  Intellectual Property; CBRN  Information or Capabilities",
     "source_file": "nist_genai_profile_001.pdf",
@@ -489,7 +489,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_46",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_3_2",
     "section_type": "subsection",
     "section_label": "MANAGE 3.2: Pre  -  trained models which are used for development are monitored as part of AI system regular monitoring and  maintenance.  Action ID  Suggested Action  GAI Risks  MG  -  3.2  -  001  Apply explainable AI (XAI) techniques (e.g., analysis of embeddings, model  compression/distillation, gradient-based attributions, occlusion/term reduction,  counterfactual prompts, word clouds) as part of ongoing continuous  improvement processes to mitigate risks related to unexplainable GAI systems.  Harmful Bias and Homogenization  MG  -  3.2  -  002  Document how pre-trained models have been adapted (e.g., fine-tuned  ,  or  retrieval  -  augmented generation) for the specific generative task, including any  data augmentations, parameter adjustments, or other modifications. Access to  un-tuned (baseline) models supports debugging the relative influence of the pre-  trained weights compared to the fine-tuned model weights or other system  updates  .  Information Integrity; Data Privacy  MG  -  3.2  -  003  Document sources and types of training data and their origins, potential biases  present in the data related to the GAI application and its content provenance,  architecture, training process of the pre-trained model including information on  hyperparameters, training duration, and any fine-tuning or retrieval-augmented  generation processes applied.  Information Integrity; Harmful Bias  and Homogenization; Intellectual  Property  MG  -  3.2  -  004  Evaluate user reported problematic content and integrate feedback into system  updates.  Human  -  AI Configuration  ,  Dangerous, Violent, or Hateful  Content  MG  -  3.2  -  005  Implement content filters to prevent the generation of inappropriate, harmful,  false, illegal, or violent content related to the GAI application, including for CSAM  and NCII. These filters can be rule  -  based or leverage additional machine learning  models to flag problematic inputs and outputs.  Information Integrity; Harmful Bias  and Homogenization; Dangerous  ,  Violent, or Hateful Content;  Obscene, Degrading, and/or  Abusive Content  MG  -  3.2  -  006  Implement real-time monitoring processes for analyzing generated content  performance and trustworthiness characteristics related to content provenance  to identify deviations from the desired standards and trigger alerts for human  intervention.  Information Integrity",
     "source_file": "nist_genai_profile_001.pdf",
@@ -497,7 +497,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_47",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_4_1",
     "section_type": "subsection",
     "section_label": "MANAGE 4.1: Post -deployment AI system monitoring plans are implemented, including mechanisms for capturing and evaluating input from users and other relevant AI Actors, appeal and override, decommissioning, incident response, recovery, and change management.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -505,7 +505,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_48",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_4_2",
     "section_type": "subsection",
     "section_label": "MANAGE 4.2: Measurable activities for continual improvements are integrated into AI system updates and include regular engagement with interested parties, including relevant AI Actors .",
     "source_file": "nist_genai_profile_001.pdf",
@@ -513,7 +513,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_section_15_sub_49",
+    "chunk_id": "nist_genai_ai_profile_001_section_3_suggested_actions_to_manage_gai_risks_MANAGE_4_3",
     "section_type": "subsection",
     "section_label": "MANAGE 4.3: Incidents and errors are communicated to relevant AI Actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and errors are followed and documented.",
     "source_file": "nist_genai_profile_001.pdf",
@@ -521,7 +521,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_appendix_16",
+    "chunk_id": "nist_genai_ai_profile_001_appendix_appendix_a_primary_gai_considerations",
     "section_type": "appendix",
     "section_label": "Appendix A. Primary GAI Considerations",
     "source_file": "nist_genai_profile_001.pdf",
@@ -529,7 +529,7 @@
   },
   {
     "doc_id": "nist_genai_ai_profile_001",
-    "chunk_id": "nist_genai_ai_profile_001_appendix_17",
+    "chunk_id": "nist_genai_ai_profile_001_appendix_appendix_b_references",
     "section_type": "appendix",
     "section_label": "Appendix B. References",
     "source_file": "nist_genai_profile_001.pdf",

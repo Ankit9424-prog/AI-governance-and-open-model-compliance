@@ -2,7 +2,17 @@
 __pycache__/
 *.pyc
 .idea/
-data/processed/
+.claude/
+CLAUDE.md
 .ipynb_checkpoints/
 *.log
 .DS_Store
+
+# credentials — never commit
+.env
+
+# generated at runtime — rebuild with embed_chunks_qdrant.py
+data/vector_store/
+
+# session logs — personal runtime data
+data/logs/

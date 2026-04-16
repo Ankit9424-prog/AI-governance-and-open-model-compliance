@@ -1,5 +1,0 @@
-doc_id,heading_ok,reading_order_ok,tables_ok,noise_level,notes,verdict
-eu_ai_act_001,TRUE,TRUE,FALSE,medium,usable_with_minor_noise,
-ncsc_secure_ai_001,TRUE,TRUE,FALSE,high,review_needed,
-nist_ai_rmf_001,TRUE,TRUE,FALSE,medium,usable_with_minor_noise,
-nist_genai_profile_001,TRUE,TRUE,FALSE,low,good,
