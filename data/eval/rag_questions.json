@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What obligations do providers of high-risk AI systems have under the EU AI Act?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "high-risk AI provider obligations",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What AI practices are prohibited by the EU AI Act?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "prohibited AI practices",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What transparency obligations does the EU AI Act impose on AI systems?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "transparency obligations",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What requirements does the EU AI Act set for risk management systems in high-risk AI?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "risk management system requirements",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does the EU AI Act say about human oversight of high-risk AI systems?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "human oversight",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What obligations does the EU AI Act place on deployers of high-risk AI systems?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "deployer obligations",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What fines does the EU AI Act impose for violating the prohibition on prohibited AI practices?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "fines for prohibited practices",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does the EU AI Act require for technical documentation of high-risk AI systems?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "technical documentation",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What risks does the NIST GenAI profile identify as unique to generative AI?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "generative AI risks",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What actions does NIST recommend under GOVERN for managing generative AI risks?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "GOVERN actions",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does the NIST GenAI profile say about confabulation in AI systems?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "confabulation",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What data privacy risks does NIST identify for generative AI?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "data privacy risks",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does NIST say about information security risks in generative AI?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "information security",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does NCSC guidance recommend for securing the AI supply chain?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "supply chain security",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does NCSC guidance say about threat modelling for AI systems?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "threat modelling",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does NCSC recommend for protecting AI models after deployment?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "model protection after deployment",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "What does NCSC say about releasing AI systems responsibly?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "responsible AI release",
+    "category": "direct_lookup"
+  },
+  {
+    "question": "How does the EU AI Act define a general-purpose AI model?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "GPAI model definition",
+    "category": "definition"
+  },
+  {
+    "question": "How does the EU AI Act define a high-risk AI system?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "high-risk AI system definition",
+    "category": "definition"
+  },
+  {
+    "question": "How does the EU AI Act define an AI system?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "AI system definition",
+    "category": "definition"
+  },
+  {
+    "question": "What is AI literacy as defined by the EU AI Act?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "AI literacy definition",
+    "category": "definition"
+  },
+  {
+    "question": "How does the NIST GenAI profile define confabulation?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "confabulation definition",
+    "category": "definition"
+  },
+  {
+    "question": "What does NIST mean by harmful bias and homogenization in generative AI?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "harmful bias definition",
+    "category": "definition"
+  },
+  {
+    "question": "What does NIST mean by human-AI configuration risk?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "human-AI configuration definition",
+    "category": "definition"
+  },
+  {
+    "question": "What does Article 5 of the EU AI Act cover?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 5 prohibited practices",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 9 of the EU AI Act require?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 9 risk management system",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 14 of the EU AI Act say?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 14 human oversight",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What are the obligations described in Article 16 of the EU AI Act?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 16 provider obligations",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 26 of the EU AI Act require of deployers?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 26 deployer obligations",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 53 of the EU AI Act require from providers of general-purpose AI models?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 53 GPAI provider obligations",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 99 of the EU AI Act say about penalties?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 99 penalties",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "What does Article 4 of the EU AI Act cover?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "Article 4 AI literacy",
+    "category": "article_number_lookup"
+  },
+  {
+    "question": "Which AI systems are completely banned in the European Union?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "prohibited AI practices (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "Do companies have to keep logs for their AI systems under EU law?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "record-keeping (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "What happens to a company that breaks EU AI rules?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "penalties (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "Does the NIST framework say anything about AI systems generating false information?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "confabulation (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "How should organisations govern large language model deployments according to NIST?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "GOVERN actions (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "What security steps should a team take before releasing an AI product?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "secure deployment (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "How do you keep an AI system safe once it is live?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "secure operation (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "What should developers document about the data used to train their AI models?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "data documentation (paraphrase)",
+    "category": "paraphrased"
+  },
+  {
+    "question": "What does the EU AI Act say about obligations for providers compared to deployers of high-risk AI systems?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "provider vs deployer obligations",
+    "category": "comparison"
+  },
+  {
+    "question": "How do the obligations for general-purpose AI models with systemic risk differ from standard GPAI model obligations under the EU AI Act?",
+    "expected_doc_id": "eu_ai_act_001",
+    "topic": "GPAI vs GPAI systemic risk obligations",
+    "category": "comparison"
+  },
+  {
+    "question": "How does NIST distinguish between information integrity risk and information security risk in generative AI?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "information integrity vs information security",
+    "category": "comparison"
+  },
+  {
+    "question": "What is the difference between the secure design and secure development phases in NCSC guidance?",
+    "expected_doc_id": "ncsc_secure_ai_001",
+    "topic": "secure design vs secure development",
+    "category": "comparison"
+  },
+  {
+    "question": "How does NIST treat CBRN risks differently from data privacy risks in the GenAI profile?",
+    "expected_doc_id": "nist_genai_ai_profile_001",
+    "topic": "CBRN vs data privacy risks",
+    "category": "comparison"
+  },
+  {
+    "question": "What does the EU AI Act say about cryptocurrency regulation?",
+    "expected_doc_id": "no_answer",
+    "topic": "out of scope — cryptocurrency",
+    "category": "no_answer"
+  },
+  {
+    "question": "What are the GDPR rules for processing personal data?",
+    "expected_doc_id": "no_answer",
+    "topic": "out of scope — GDPR",
+    "category": "no_answer"
+  },
+  {
+    "question": "What does NIST say about quantum computing security?",
+    "expected_doc_id": "no_answer",
+    "topic": "out of scope — quantum computing",
+    "category": "no_answer"
+  },
+  {
+    "question": "What does NCSC recommend for securing traditional software that does not use AI?",
+    "expected_doc_id": "no_answer",
+    "topic": "out of scope — non-AI software",
+    "category": "no_answer"
+  },
+  {
+    "question": "What does ISO 42001 say about AI management systems?",
+    "expected_doc_id": "no_answer",
+    "topic": "out of scope — ISO 42001 not in corpus",
+    "category": "no_answer"
+  }
+]
